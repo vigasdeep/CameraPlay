@@ -5,11 +5,6 @@ import { RNCamera } from 'react-native-camera';
 import styles from '../styles.js';
 
 class Home extends React.Component {
-  state = {
-        width: null,
-        height: null
-    };
-
   constructor(props){
     super(props)
   }
