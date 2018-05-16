@@ -3,18 +3,6 @@ import { Image, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import { createStackNavigator } from 'react-navigation';
 import { RNCamera } from 'react-native-camera';
 import styles from './src/styles.js';
-const PendingView = () => (
-  <View
-    style={{
-      flex: 1,
-      backgroundColor: 'lightgreen',
-      justifyContent: 'center',
-      alignItems: 'center',
-    }}
-  >
-    <Text>Waiting</Text>
-  </View>
-);
 class Home extends React.Component {
   state = {
         width: null,
